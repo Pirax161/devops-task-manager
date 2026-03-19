@@ -41,5 +41,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/your-username/task-manager-api:latest
-            ghcr.io/your-username/task-manager-api:prod
+            ghcr.io/pirax161/devops-task-manager:latest
+            ghcr.io/pirax161/devops-task-manager:prod

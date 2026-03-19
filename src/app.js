@@ -8,7 +8,7 @@ const tasksRouter = require('./routes/tasks');
 app.use('/tasks', tasksRouter);
 
 app.get('/', (req, res) => { 
-    res.json({ message: "Task Manager API running (Lab 4)" }); 
+    res.json({ message: "Task Manager API running (Lab 4 v2)" }); 
 });
 
 // GESTION DU PORT (Crucial pour Docker)
